@@ -1,0 +1,10 @@
+void readWord(char* word);
+void readText(char* text);
+int calcGematria(char str[]);
+void calcAtbash(char* str, char* dest);
+int calcContainsAtbash(char a[], char b[]);
+int isMinimal(char str[]);
+int isAnagram(char a[], char b[]);
+void printGematria(char* word, char* text);
+void printAtbash(char* word, char* text);
+void printAnagram(char* word, char* text);
