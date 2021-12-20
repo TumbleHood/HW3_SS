@@ -55,6 +55,7 @@ void calcAtbash(char* str, char* dest){
             dest[i] = (char)((int)'Z' - (int)str[i] + (int)'A');// atbash uppercase character = Z - char + A
         }
     }
+    dest[strlen(str)] = '\0';
 }
 
 int calcContaintsAtbash(char a[], char b[]){

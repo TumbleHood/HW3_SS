@@ -12,11 +12,11 @@ int main(void){
     readWord(word);
     readText(text);
 
-    printf("Gematria Squence: ");
+    printf("Gematria Squences: ");
     printGematria(word, text);
-    printf("\nAtbash Sequence: ");
+    printf("\nAtbash Sequences: ");
     printAtbash(word, text);
-    printf("\nAnagram Seqcuence: ");
+    printf("\nAnagram Seqcuences: ");
     printAnagram(word, text);
 
     return 0;
